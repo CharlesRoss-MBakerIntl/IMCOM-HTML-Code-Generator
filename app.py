@@ -75,7 +75,7 @@ def main():
         
         first_page = f"""
 
-        <h2 class="text-center" style="text-align: center;">{installation} Standardized Map Applications</h2>
+        <h2 class="text-center white-text" style="text-align: center;">{installation} Standardized Map Applications</h2>
         <div class="row">
 
         <!-- Add Application Cards Here DO NOT ADD BELOW THE   </div>-->
@@ -87,9 +87,9 @@ def main():
                                     <img class="”card-image”" src="https://aigp-iigg.obs.army.mil/portal/sharing/rest/content/items/9ecf0076b6eb4f4d8221e74dd87fa446/data" alt="Master Plan" style="width: 100%;" height="140px">
                             </div>
                             <div class="card-content" style="background-color:#22211f;">
-                                <h4 style="text-align:left;font-size:19px;"><a target="_blank" href="https://aigp-iigg.obs.army.mil/portal/apps/sites/#/{installation_short}/apps/{master_plan_id}/about">
+                                <h4 style="text-align:left;font-size:19px;"><a target="_blank" href="https://aigp-iigg.obs.army.mil/portal/apps/sites/#/{installation_short}/apps/{master_plan_id}/about" class="yellow-text">
                                     Master Plan</a></h4>
-                                <p style="min-height: 50px; margin-bottom: 10px;">
+                                <p style="min-height: 50px; margin-bottom: 10px;" class="white-text">
                                         The ExB app, called Master Plan, allows users to view various layers related to a specific theme. These layers 
                                         may include Planning, Real Property, Military Ranges and Training, and more.</p>
                             </div>
@@ -111,9 +111,9 @@ def main():
                                     <img class="”card-image”" src="{airfield_image}" alt="Airfield" style="width: 100%;" height="140px">
                             </div>
                             <div class="card-content" style="background-color:#22211f;">
-                                <h4 style="text-align:left;font-size:19px;"><a target="_blank" href="https://aigp-iigg.obs.army.mil/portal/apps/sites/#/{installation_short}/apps/{airfield_id}/about">
+                                <h4 style="text-align:left;font-size:19px;"><a target="_blank" href="https://aigp-iigg.obs.army.mil/portal/apps/sites/#/{installation_short}/apps/{airfield_id}/about" class="yellow-text">
                                     Airfield</a></h4>
-                                <p style="min-height: 50px; margin-bottom: 10px;">
+                                <p style="min-height: 50px; margin-bottom: 10px;" class="white-text">
                                         The ExB app, called Airfield, allows users to view various layers related to a specific theme. These layers may include 
                                         CCF Transportation, Airfield, Military Ranges and Training, and more.</p>
                             </div>
@@ -135,9 +135,9 @@ def main():
                                     <img class="”card-image”" src="https://aigp-iigg.obs.army.mil/portal/sharing/rest/content/items/6918d3710c39404db2035499258f290d/data" style="width: 100%;" alt="Emergency Services" height="140px">
                             </div>
                             <div class="card-content" style="background-color:#22211f;">
-                                <h4 style="text-align:left;font-size:19px;"><a target="_blank" href="https://aigp-iigg.obs.army.mil/portal/apps/sites/#/{installation_short}/apps/{emer_serv_id}/about">
+                                <h4 style="text-align:left;font-size:19px;"><a target="_blank" href="https://aigp-iigg.obs.army.mil/portal/apps/sites/#/{installation_short}/apps/{emer_serv_id}/about" class="yellow-text">
                                     Emergency Services</a></h4>
-                                <p style="min-height: 50px; margin-bottom: 10px;">
+                                <p style="min-height: 50px; margin-bottom: 10px;" class="white-text">
                                         The ExB app, called Emergency Services, allows users to view various layers related to a specific theme. 
                                         These layers may include Emergency Services, Airfield, and more.</p>
                             </div>
@@ -159,9 +159,9 @@ def main():
                                     <img class="”card-image”" src="https://aigp-iigg.obs.army.mil/portal/sharing/rest/content/items/383bd5ace18b40e98e018d3f7e47d2bd/data" style="width: 100%;" alt="Rec and Fitness" height="140px">
                             </div>
                             <div class="card-content" style="background-color:#22211f;">
-                                <h4 style="text-align:left;font-size:19px;"><a target="_blank" href="https://aigp-iigg.obs.army.mil/portal/apps/sites/#/{installation_short}/apps/{rec_fit_id}/about">
+                                <h4 style="text-align:left;font-size:19px;"><a target="_blank" href="https://aigp-iigg.obs.army.mil/portal/apps/sites/#/{installation_short}/apps/{rec_fit_id}/about" class="yellow-text">
                                     Recreation &amp; Fitness</a></h4>
-                                <p style="min-height: 50px; margin-bottom: 10px;">
+                                <p style="min-height: 50px; margin-bottom: 10px;" class="white-text">
                                         The ExB app, called Fitness &amp; Recreation, allows users to view various layers related to a specific theme. These 
                                         layers may include Recreation, Real Property, and more.</p>
                             </div>
@@ -178,8 +178,6 @@ def main():
 
         </div>
 
-
-
         """
 
 
@@ -195,9 +193,9 @@ def main():
                                     <img class="”card-image”" src="{install_image}" alt="Installation" style="width: 100%;" height="140px">
                             </div>
                             <div class="card-content" style="background-color:#22211f;">
-                                <h4 style="text-align:left;font-size:19px;"><a target="_blank" href="https://aigp-iigg.obs.army.mil/portal/apps/sites/#/{installation_short}/apps/{install_id}/about">
+                                <h4 style="text-align:left;font-size:19px;"><a target="_blank" href="https://aigp-iigg.obs.army.mil/portal/apps/sites/#/{installation_short}/apps/{install_id}/about" class="yellow-text">
                                     Installation</a></h4>
-                                <p style="min-height: 50px; margin-bottom: 10px;">
+                                <p style="min-height: 50px; margin-bottom: 10px;" class="white-text">
                                         The ExB app, called Installation, allows users to view various layers related to a specific theme. These layers may 
                                         include Real Property, Military Ranges and Training, Civil Works, and more.</p>
                             </div>
@@ -219,9 +217,9 @@ def main():
                                     <img class="”card-image”" src="https://aigp-iigg.obs.army.mil/portal/sharing/rest/content/items/82a2a6d85b174992ae9520d5cdbcd45c/data" alt="Ground Maintenance" style="width: 100%;" height="140px">
                             </div>
                             <div class="card-content" style="background-color:#22211f;">
-                                <h4 style="text-align:left;font-size:19px;"><a target="_blank" href="https://aigp-iigg.obs.army.mil/portal/apps/sites/#/{installation_short}/apps/{grnd_maint_id}/about">
+                                <h4 style="text-align:left;font-size:19px;"><a target="_blank" href="https://aigp-iigg.obs.army.mil/portal/apps/sites/#/{installation_short}/apps/{grnd_maint_id}/about" class="yellow-text">
                                     Ground Maintenance</a></h4>
-                                <p style="min-height: 50px; margin-bottom: 10px;">
+                                <p style="min-height: 50px; margin-bottom: 10px;" class="white-text">
                                         The ExB app, called Grounds Maintenance, allows users to view various layers related to a specific theme. These layers 
                                         may include Civil Works, Clean Up , Cultural Resources, and more.</p>
                             </div>
@@ -244,9 +242,9 @@ def main():
                                     <img class="”card-image”" src="https://aigp-iigg.obs.army.mil/portal/sharing/rest/content/items/8b6ab30905064b0d8125f178c3dd6958/data" alt="Environmental" style="width: 100%;" height="140px">
                             </div>
                             <div class="card-content" style="background-color:#22211f;">
-                                <h4 style="text-align:left;font-size:19px;"><a target="_blank" href="https://aigp-iigg.obs.army.mil/portal/apps/sites/#/{installation_short}/apps/{environ_id}/about">
+                                <h4 style="text-align:left;font-size:19px;"><a target="_blank" href="https://aigp-iigg.obs.army.mil/portal/apps/sites/#/{installation_short}/apps/{environ_id}/about" class="yellow-text">
                                     Environmental</a></h4>
-                                <p style="min-height: 50px; margin-bottom: 10px;">
+                                <p style="min-height: 50px; margin-bottom: 10px;" class="white-text">
                                         The ExB app, called Environmental, allows users to view various layers related to a specific theme. These layers may 
                                         include Restricted Area, Cultural Resources, Compliance, and more.</p>
                             </div>
@@ -263,21 +261,40 @@ def main():
                     
                     
         <div class="col-xs-12">
-            <p class="text-right">
+            <p class="text-right white-text">
                     <a target="_blank" href="https://aigp-iigg.obs.army.mil/portal/apps/sites/#/{installation_short}/search? collection=App%2CMap" class="btn btn-primary">
                         Explore All Apps</a>
             </p>
         </div>
 
+        """
+
+
+      
+
+
+        
+        style_section = """
+        
+        <style>
+            .white-text {
+                color: white;
+            }
+            .yellow-text {
+                color: #FEC325;
+            }
+        </style>
 
         """
+
+                
 
 
         st.write('#')
         
         st.write("First Text Section HTML Code")
 
-        st.code(first_page, language='html')
+        st.code(first_page + style_section, language='html')
 
 
         st.write('#')
